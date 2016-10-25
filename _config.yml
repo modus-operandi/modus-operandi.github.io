@@ -1,6 +1,6 @@
 # Site settings
 title: Adam's Blarg
-description: 'Newly minted DevOps Engineer, SysAdmin in a not-so previous life. Loves plain-text, well designed systems, motorcycles and whisky.'
+description: 'Newly minted DevOps Engineer, SysAdmin in a not-so previous life. Mostly random stuff about tech.'
 url: 'https://sudoscience.ca'
 enforce_ssl: sudoscience.ca
 baseurl: /
