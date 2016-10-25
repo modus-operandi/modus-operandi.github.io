@@ -1,0 +1,36 @@
+# Site settings
+title: Adam's Blarg
+description: 'Newly minted DevOps Engineer, SysAdmin in a not-so previous life. Loves plain-text, well designed systems, motorcycles and whisky.'
+url: 'https://sudoscience.ca'
+enforce_ssl: sudoscience.ca
+baseurl: /
+#google_analytics: ''
+
+author:
+  name: 'Adam'
+  email: adam+blog@cluebyfour.ca
+  twitter_username: thatadamgilbert
+  github_username:  modus-operandi
+  #linkedin_username:  
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:title
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems:
+  - jekyll-github-metadata
+  - jekyll-paginate
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-gist
+
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png', 'Docker.BuildAndRun.ps1', 'docker-build.sh', 'docker-compose.yml', 'Dockerfile', 'Docker.StopAndRemove.ps1']
