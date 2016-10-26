@@ -21,11 +21,11 @@ Note: If you just want the container code, go [here.](https://github.com/modus-o
 
 The only really interesting gotcha here was the requirement to set the LANG and TERM environment variables.   The install fails without them. 
 
-{% gist modus-operandi/706afdfe381e359d57642777605db888 %}
+{% gist 706afdfe381e359d57642777605db888 %}
 
 The real magic is the install script which runs on container startup.  It will download the client and do the actual install.  
 
-{% gist modus-operandi/41790cef99eac1536346e330dc90268f %}
+{% gist 41790cef99eac1536346e330dc90268f %}
 
 I'm using sed to toggle values in the configuration files.  If you need an authenticated server, that part is what you'd modify (along with the .cfg files themselves).  
 
@@ -33,7 +33,7 @@ I'm using sed to toggle values in the configuration files.  If you need an authe
 
 Here's my sample start script that I use to launch the container.  Toggle values where necessary.
 
-{% gist modus-operandi/e2185ce0c2efc4eb7dc07a141296e3f3 %}
+{% gist e2185ce0c2efc4eb7dc07a141296e3f3 %}
 
 ## Conclusion
 

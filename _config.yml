@@ -5,6 +5,7 @@ description: Newly minted DevOps Engineer, SysAdmin in a not-so previous life.  
 url: https://sudoscience.ca
 enforce_ssl: sudoscience.ca
 baseurl: "/"
+google_analytics: 'UA-86366705-1'
 author:
   name: Adam
   email: adam+blog@cluebyfour.ca
