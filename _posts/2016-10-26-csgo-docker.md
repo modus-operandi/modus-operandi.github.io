@@ -1,6 +1,7 @@
 ---
 title: CS:GO in a Docker container
-comments: 'true'
+layout: post
+comments: true
 ---
 
 I was around 18 years old when Gooseman released the original Half-Life 1 mod Counter-Strike.  I was actually introduced to it by my younger brother as I mostly had played Quake Arena before that.   I was pretty much instantly hooked and have been playing off and on with long breaks inbetween.  At points I've played each iteration of CS - once it became 1.6, then CS:S, and now CS:GO.  
